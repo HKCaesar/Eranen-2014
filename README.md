@@ -63,7 +63,7 @@ http://www.maanmittauslaitos.fi/avoindata_lisenssi_versio1_20120501.
 - Digital elevation model in 10 m grid, http://www.maanmittauslaitos.fi/en/digituotteet/elevation-model-10-m
 
 ./DEM/streams
-Rasterized streams from the Topographic database, http://www.maanmittauslaitos.fi/en/digituotteet/topographic-database
+- Rasterized streams from the Topographic database, http://www.maanmittauslaitos.fi/en/digituotteet/topographic-database
 
 
 Running the algorithm
