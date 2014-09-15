@@ -59,11 +59,11 @@ Sample data
 Samples contain data from the Topographic database and DEM10 (6/2012) by the National Land Survey of Finland, 
 http://www.maanmittauslaitos.fi/avoindata_lisenssi_versio1_20120501.
 
-./DEM/dem10	Digital elevation model in 10 m grid
-		http://www.maanmittauslaitos.fi/en/digituotteet/elevation-model-10-m
+./DEM/dem10
+- Digital elevation model in 10 m grid, http://www.maanmittauslaitos.fi/en/digituotteet/elevation-model-10-m
 
-./DEM/streams	Rasterized streams from the Topographic database
-		http://www.maanmittauslaitos.fi/en/digituotteet/topographic-database
+./DEM/streams
+Rasterized streams from the Topographic database, http://www.maanmittauslaitos.fi/en/digituotteet/topographic-database
 
 
 Running the algorithm
@@ -73,7 +73,7 @@ For getting help about all options:
 
 	./drainage --help
 
-Sample run used for getting the results presented in the article's Figure 1:
+Sample run used for getting similar results presented in the article's Figure 1 (Note: The DEM is different):
 
     ./drainage --dem-path=DEM --dem=dem10 --stream-path=DEM --stream=streams --filter-type='Gaussian' --practical-range=60 --iterations=100 --gpu
 
