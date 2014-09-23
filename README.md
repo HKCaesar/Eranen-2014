@@ -20,7 +20,7 @@ Keywords: geospatial analysis, data uncertainty, Monte Carlo, DEM, GPU, CUDA
 Citation
 --------
 
-Eränen, D., Oksanen, J., Westerholm, J. and T. Sarjakoski (in press). A full graphics processing unit implementation of uncertainty-aware drainage basin delineation. Computers & Geosciences. DOI: 10.1016/j.cageo.2014.08.012
+Eränen, D., Oksanen, J., Westerholm, J. and T. Sarjakoski (2014). A full graphics processing unit implementation of uncertainty-aware drainage basin delineation. Computers & Geosciences 73: 48-60. DOI: 10.1016/j.cageo.2014.08.012
 
 
 Installation
@@ -84,3 +84,9 @@ License
 This program is released under GNU Lesser General Public License. For more information, see files COPYING and COPYING.LESSER.
 
 This program contains jpeg encoder library jpge, which is released under Public domain.
+
+Acknowledgements
+----------------
+
+Funding from the Ministry of Agriculture and Forestry, Finland, for the VALUE II project and from the Academy of Finland (grants 251987 and 259557) is gratefully acknowledged. In addition, we are thankful for the constructive comments and valuable help by Mr. Janne Kovanen (Department of Geoinformatics and Cartography, Finnish Geodetic Institute) and Dr. Ville Mäkinen for preparation of the source code for public access.
+
